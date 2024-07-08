@@ -11,22 +11,22 @@ export default function Home() {
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="http://localhost:3002/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="https://getbootstrap.com/docs/5.3/examples/product/">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Service</a>
+          <a class="nav-link" href="https://getbootstrap.com/docs/5.3/examples/album/">Service</a>
         </li>
         <li class="nav-item dropdown">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">Contact</a>
         </li>
       </ul>
       <nav className="navbar bg-body-tertiary">
   <form className="container-fluid justify-content-start ">
-    <button className="btn btn-outline-success me-2" type="button">Singin</button>
-    <button className="btn btn-outline-success me-2" type="button">Singout</button>
+    <button className="btn btn-outline-success me-2" type="button" >Singin</button>
+    <button className="btn btn-outline-success me-2" type="button" >Singout</button>
   </form>
 </nav>
     </div>
