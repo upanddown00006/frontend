@@ -32,55 +32,48 @@ export default function Home() {
     </div>
   </div>
 </nav>
-
   </div>
   <div className="container-fluid">
   <div id="carouselExample" className="carousel slide">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="https://article.tcdc.or.th/uploads/article-detail-img/tmp/ecVEjuYKA7dk9ZCL2l6W84eSm10zV5LoG6Oflyzj.jpeg?10102023045648" className="d-block w-100  " alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="https://thonglorpet.com/_content_html_editor_upload/images/0B520ADA-2CE7-3912-A491-13C27A99ECC4.png" className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="https://thonglorpet.com/_content_html_editor_upload/images/0B520ADA-2CE7-3912-A491-13C27A99ECC4.png" className="d-block w-100" alt="..." />
+  
+ <div>
+  <div className="card mb-3">
+    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/448637177_3644653962412949_7084819343299832374_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ichypwRXZDoQ7kNvgFig0Yz&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QEZTx4vTuAJMqPz8J8UHdja2pKhLzYtLlaKX8lOOXe27Q&oe=66B31193" className="card-img-top" alt="..." weight={60} height={1000}/>
+    <div className="card-body">
+      <h5 className="card-title">เกย์ คือ</h5>
+      <p className="card-text">เกย์ (อังกฤษ: Gay) เป็นศัพท์ที่โดยหลักสื่อถึงบุคคลที่มีรสนิยมหรือพฤติกรรมแบบรักร่วมเพศ เดิมมีความหมายว่า 'ไร้กังวล', 'ร่าเริง' หรือ 'สดใสและสะดุดตา</p>
+      <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
     </div>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
+
+</div>
+
 </div>
 
     
   <div className="row ">
   <div className="card" style={{width: '39.6rem'}}>
-  <img src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/318474286_1167505503972267_3838078409158600808_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1tvTrPxn4JoQ7kNvgHeYY5v&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYAii6mkXsZjVZc4X4_zHah-IQRe8gRXMqZvT5WhEsWpew&oe=66911F8F" className="card-img-top" alt="..." />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjqxDZe8BZUpWLsWxRv-qccIyLpeC03dLRdg&s" className="card-img-top" alt="..." />
   <div className="card-body">
-    <h5 className="card-title">ยอด เก</h5>
+    <h5 className="card-title">โลเก</h5>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="https://www.facebook.com/TheCarlton4150" className="btn btn-primary">Go somewhere</a>
   </div>
 </div>
 
 <div className="card" style={{width: '39.6rem'}}>
-  <img src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-1/316041110_1279123546208297_4046811996068980516_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=8lsXRpBfkycQ7kNvgGUczR4&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYBIqdsoDbWsjTZuAx8NqQf0iJck0uBU8qG5jb4QTfUzOA&oe=66914A37" className="card-img-top" alt="..." />
+  <img src="https://1417094351.rsc.cdn77.org/publicassets/9425919/images/5dd247abe09c18b4edd04bd664c7cf59_1690123800.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
-    <h5 className="card-title">มหา เกไม่มีใครเทียบติด</h5>
+    <h5 className="card-title">พรี้หลามใจเกเร</h5>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="https://www.facebook.com/profile.php?id=100023319908389" className="btn btn-primary">Go somewhere</a>
   </div>
 </div>
     
 <div className="card" style={{width: '39.6rem'}}>
-  <img src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/412689284_1116585446032744_5723252026230995107_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=g81v6nqXTtIQ7kNvgFBGvhc&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYDv-elTbXKPs7fTIZXBGhIznRm_Zen-joWOyQIrPyFtvw&oe=669136B2" className="card-img-top" alt="..." />
+  <img src="https://cdn.readawrite.com/articles/7056/7055067/thumbnail/large.gif?1" className="card-img-top" alt="..." />
   <div className="card-body">
-    <h5 className="card-title">สุดเก</h5>
+    <h5 className="card-title">พรี้โตใจเกเร</h5>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="https://www.facebook.com/nicky.phasut.9" className="btn btn-primary">Go somewhere</a>
   </div>
