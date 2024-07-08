@@ -87,7 +87,7 @@ export default function Home() {
 </div>
   </div>
   <div className="row">
-    <div className="col-md-14  bg-primary p-4">
+    <div className="col-md-14  bg-white p-4">
       © copy Gree
     </div>
   </div>
